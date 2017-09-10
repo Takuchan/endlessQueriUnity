@@ -13,7 +13,7 @@ public class NejikoController: MonoBehaviour
     //自分加筆
     private int level = 1;
     public Text levelGUI;
-    private int countborder = 50;
+    private int countborder = 200;
     private int count = 0;
     //加筆終わり
  
@@ -75,11 +75,12 @@ public class NejikoController: MonoBehaviour
                 Leveup();
         
             }
-        if (level == 1 && speedX > 5) { speedX = 5; }
-        if (level == 2 && speedX > 10) { speedX = 15; }
-        if (level == 3 && speedX > 15) { speedX = 20; }
-        if (level == 4 && speedX > 20) { speedX = 25; }
-        if (level == 5 && speedX > 25) { speedX = 30; }
+        if (level == 1 && speedZ >= 5)  { speedZ = 7; }
+			Debug.Log (speedZ);
+        if (level == 2 && speedZ >= 7) { speedZ = 12; }
+        if (level == 3 && speedZ >= 12) { speedZ = 15; }
+        if (level == 4 && speedZ >= 15) { speedZ = 17; }
+        if (level == 5 && speedZ >= 17) { speedZ = 20; }
         }
         
         //自分加筆終わり
