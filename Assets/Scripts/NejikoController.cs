@@ -7,7 +7,7 @@ public class NejikoController: MonoBehaviour
 	const int MinLane = -2;
 	const int MaxLane = 2;
 	const float LaneWidth = 1.0f;
-	const int DefaultLife = 3;
+	const int DefaultLife = 6;
 	const float StunDuration = 0.5f;
 
     //自分加筆
