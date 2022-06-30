@@ -7,62 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		407D43EB80C26C3DECD8EA11 /* libmono-native.dylib in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FDC847108B7400E775732305 /* libmono-native.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		750575B4214B38CE004B1B34 /* UnityPlayer.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 750575B3214B38CE004B1B34 /* UnityPlayer.dylib */; };
-		750575B5214B3DF2004B1B34 /* UnityPlayer.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 750575B3214B38CE004B1B34 /* UnityPlayer.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		752CA83E2149E6C400295EFC /* Main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 752CA83D2149E6C400295EFC /* Main.cpp */; };
-		75D2DE1F2175685A0038651C /* unity default resources in Resources */ = {isa = PBXBuildFile; fileRef = 75D2DE1E2175685A0038651C /* unity default resources */; };
-		75E7179121715210002B2479 /* DefaultPreferences.plist in Resources */ = {isa = PBXBuildFile; fileRef = 75E7178E21715210002B2479 /* DefaultPreferences.plist */; };
-		75E7179221715210002B2479 /* Data in Resources */ = {isa = PBXBuildFile; fileRef = 75E7178F21715210002B2479 /* Data */; };
-		75E7179321715210002B2479 /* PlayerIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 75E7179021715210002B2479 /* PlayerIcon.icns */; };
-		97934C17A591F7E5516FABCE /* libMonoPosixHelper.dylib in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 650146F7A6FC857B28A59C1D /* libMonoPosixHelper.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		CDD5792C240E027400DEA632 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = CDD5792B240E027400DEA632 /* MainMenu.nib */; };
-		E1004A8286F026369966AB8D /* libmonobdwgc-2.0.dylib in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 79764C4888297C3396AC9E63 /* libmonobdwgc-2.0.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		F6864167983FF7C66FAF6723 /* MonoBleedingEdge in CopyFiles */ = {isa = PBXBuildFile; fileRef = CF424692AF9E147107AE96D6 /* MonoBleedingEdge */; };
+		C40D2E19286328B9004CDB5F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40D2E18286328B9004CDB5F /* AppDelegate.swift */; };
+		C40D2E1B286328B9004CDB5F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40D2E1A286328B9004CDB5F /* SceneDelegate.swift */; };
+		C40D2E1D286328B9004CDB5F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40D2E1C286328B9004CDB5F /* ViewController.swift */; };
+		C40D2E20286328B9004CDB5F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C40D2E1E286328B9004CDB5F /* Main.storyboard */; };
+		C40D2E22286328BB004CDB5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C40D2E21286328BB004CDB5F /* Assets.xcassets */; };
+		C40D2E25286328BB004CDB5F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C40D2E23286328BB004CDB5F /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		146A4CFF99F5444AB1D51E7E /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				E1004A8286F026369966AB8D /* libmonobdwgc-2.0.dylib in Embed Frameworks */,
-				97934C17A591F7E5516FABCE /* libMonoPosixHelper.dylib in Embed Frameworks */,
-				407D43EB80C26C3DECD8EA11 /* libmono-native.dylib in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4E644BFA85AF6DD98576DDB7 /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = Contents;
-			dstSubfolderSpec = 1;
-			files = (
-				F6864167983FF7C66FAF6723 /* MonoBleedingEdge in CopyFiles */,
-			);
-			name = CopyFiles;
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		750575B6214B3DF2004B1B34 /* Embed Libraries */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				750575B5214B3DF2004B1B34 /* UnityPlayer.dylib in Embed Libraries */,
-			);
-			name = "Embed Libraries";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		650146F7A6FC857B28A59C1D /* libMonoPosixHelper.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libMonoPosixHelper.dylib; path = "endlessQueriUnity-master/Frameworks/libMonoPosixHelper.dylib"; sourceTree = SOURCE_ROOT; };
 		750575B3214B38CE004B1B34 /* UnityPlayer.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = UnityPlayer.dylib; path = "endlessQueriUnity-master/Frameworks/UnityPlayer.dylib"; sourceTree = "<group>"; };
-		752CA8282149E6C100295EFC /* endlessQueriUnity-master.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "endlessQueriUnity-master.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		752CA83C2149E6C400295EFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		752CA83D2149E6C400295EFC /* Main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Main.cpp; sourceTree = "<group>"; };
 		75D2DE1E2175685A0038651C /* unity default resources */ = {isa = PBXFileReference; lastKnownFileType = text; name = "unity default resources"; path = "endlessQueriUnity-master/Resources/unity default resources"; sourceTree = "<group>"; };
@@ -70,17 +25,24 @@
 		75E7178F21715210002B2479 /* Data */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Data; path = "endlessQueriUnity-master/Resources/Data"; sourceTree = "<group>"; };
 		75E7179021715210002B2479 /* PlayerIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = PlayerIcon.icns; path = "endlessQueriUnity-master/Resources/PlayerIcon.icns"; sourceTree = "<group>"; };
 		79764C4888297C3396AC9E63 /* libmonobdwgc-2.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libmonobdwgc-2.0.dylib"; path = "endlessQueriUnity-master/Frameworks/libmonobdwgc-2.0.dylib"; sourceTree = SOURCE_ROOT; };
+		C40D2E16286328B9004CDB5F /* Query.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Query.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C40D2E18286328B9004CDB5F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C40D2E1A286328B9004CDB5F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C40D2E1C286328B9004CDB5F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C40D2E1F286328B9004CDB5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C40D2E21286328BB004CDB5F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C40D2E24286328BB004CDB5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C40D2E26286328BB004CDB5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CDD5792B240E027400DEA632 /* MainMenu.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = MainMenu.nib; path = "endlessQueriUnity-master/Resources/MainMenu.nib"; sourceTree = "<group>"; };
 		CF424692AF9E147107AE96D6 /* MonoBleedingEdge */ = {isa = PBXFileReference; lastKnownFileType = folder; name = MonoBleedingEdge; path = "endlessQueriUnity-master/MonoBleedingEdge"; sourceTree = SOURCE_ROOT; };
 		FDC847108B7400E775732305 /* libmono-native.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libmono-native.dylib"; path = "endlessQueriUnity-master/Frameworks/libmono-native.dylib"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		752CA8252149E6C100295EFC /* Frameworks */ = {
+		C40D2E13286328B9004CDB5F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				750575B4214B38CE004B1B34 /* UnityPlayer.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -109,6 +71,7 @@
 			isa = PBXGroup;
 			children = (
 				75E7179421715230002B2479 /* Resources */,
+				C40D2E17286328B9004CDB5F /* Query */,
 				750575B2214B38CE004B1B34 /* Frameworks */,
 				752CA82A2149E6C100295EFC /* endlessQueriUnity-master */,
 				752CA8292149E6C100295EFC /* Products */,
@@ -118,7 +81,7 @@
 		752CA8292149E6C100295EFC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				752CA8282149E6C100295EFC /* endlessQueriUnity-master.app */,
+				C40D2E16286328B9004CDB5F /* Query.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -146,27 +109,38 @@
 			name = Resources;
 			sourceTree = "<group>";
 		};
+		C40D2E17286328B9004CDB5F /* Query */ = {
+			isa = PBXGroup;
+			children = (
+				C40D2E18286328B9004CDB5F /* AppDelegate.swift */,
+				C40D2E1A286328B9004CDB5F /* SceneDelegate.swift */,
+				C40D2E1C286328B9004CDB5F /* ViewController.swift */,
+				C40D2E1E286328B9004CDB5F /* Main.storyboard */,
+				C40D2E21286328BB004CDB5F /* Assets.xcassets */,
+				C40D2E23286328BB004CDB5F /* LaunchScreen.storyboard */,
+				C40D2E26286328BB004CDB5F /* Info.plist */,
+			);
+			path = Query;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		752CA8272149E6C100295EFC /* endlessQueriUnity-master */ = {
+		C40D2E15286328B9004CDB5F /* Query */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 752CA8422149E6C400295EFC /* Build configuration list for PBXNativeTarget "endlessQueriUnity-master" */;
+			buildConfigurationList = C40D2E27286328BB004CDB5F /* Build configuration list for PBXNativeTarget "Query" */;
 			buildPhases = (
-				752CA8242149E6C100295EFC /* Sources */,
-				752CA8252149E6C100295EFC /* Frameworks */,
-				752CA8262149E6C100295EFC /* Resources */,
-				750575B6214B3DF2004B1B34 /* Embed Libraries */,
-				146A4CFF99F5444AB1D51E7E /* Embed Frameworks */,
-				4E644BFA85AF6DD98576DDB7 /* CopyFiles */,
+				C40D2E12286328B9004CDB5F /* Sources */,
+				C40D2E13286328B9004CDB5F /* Frameworks */,
+				C40D2E14286328B9004CDB5F /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "endlessQueriUnity-master";
-			productName = "endlessQueriUnity-master";
-			productReference = 752CA8282149E6C100295EFC /* endlessQueriUnity-master.app */;
+			name = Query;
+			productName = Query;
+			productReference = C40D2E16286328B9004CDB5F /* Query.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -175,15 +149,16 @@
 		752CA8202149E6C100295EFC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 1340;
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = "Unity Technologies";
 				TargetAttributes = {
-					752CA8272149E6C100295EFC = {
-						CreatedOnToolsVersion = 9.4.1;
+					C40D2E15286328B9004CDB5F = {
+						CreatedOnToolsVersion = 13.4.1;
 					};
 				};
 			};
-			buildConfigurationList = 752CA8232149E6C100295EFC /* Build configuration list for PBXProject "Unity-iPhone" */;
+			buildConfigurationList = 752CA8232149E6C100295EFC /* Build configuration list for PBXProject "Debug" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -192,40 +167,59 @@
 				Base,
 			);
 			mainGroup = 752CA81F2149E6C100295EFC;
-			productRefGroup = 752CA8292149E6C100295EFC;
+			productRefGroup = 752CA8292149E6C100295EFC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				752CA8272149E6C100295EFC /* endlessQueriUnity-master */,
+				C40D2E15286328B9004CDB5F /* Query */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		752CA8262149E6C100295EFC /* Resources */ = {
+		C40D2E14286328B9004CDB5F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				75E7179121715210002B2479 /* DefaultPreferences.plist in Resources */,
-				CDD5792C240E027400DEA632 /* MainMenu.nib in Resources */,
-				75E7179221715210002B2479 /* Data in Resources */,
-				75E7179321715210002B2479 /* PlayerIcon.icns in Resources */,
-				75D2DE1F2175685A0038651C /* unity default resources in Resources */,
+				C40D2E25286328BB004CDB5F /* LaunchScreen.storyboard in Resources */,
+				C40D2E22286328BB004CDB5F /* Assets.xcassets in Resources */,
+				C40D2E20286328B9004CDB5F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		752CA8242149E6C100295EFC /* Sources */ = {
+		C40D2E12286328B9004CDB5F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				752CA83E2149E6C400295EFC /* Main.cpp in Sources */,
+				C40D2E1D286328B9004CDB5F /* ViewController.swift in Sources */,
+				C40D2E19286328B9004CDB5F /* AppDelegate.swift in Sources */,
+				C40D2E1B286328B9004CDB5F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C40D2E1E286328B9004CDB5F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C40D2E1F286328B9004CDB5F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C40D2E23286328BB004CDB5F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C40D2E24286328BB004CDB5F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		752CA8402149E6C400295EFC /* Debug */ = {
@@ -331,44 +325,86 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
 			};
 			name = Release;
 		};
-		752CA8432149E6C400295EFC /* Debug */ = {
+		C40D2E28286328BB004CDB5F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
 				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = "endlessQueriUnity-master/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.DefaultCompany.endlessQueriUnity-master";
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QD2MBVB859;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Query/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = Takuchan.Query;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				UNITY_RUNTIME_VERSION = 2021.3.1f1;
-				UNITY_SCRIPTING_IL2CPP = 0;
-				VALID_ARCHS = "arm64 x86_64";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		752CA8442149E6C400295EFC /* Release */ = {
+		C40D2E29286328BB004CDB5F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
 				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = "endlessQueriUnity-master/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.DefaultCompany.endlessQueriUnity-master";
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QD2MBVB859;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Query/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = Takuchan.Query;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				UNITY_RUNTIME_VERSION = 2021.3.1f1;
-				UNITY_SCRIPTING_IL2CPP = 0;
-				VALID_ARCHS = "arm64 x86_64";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		752CA8232149E6C100295EFC /* Build configuration list for PBXProject "Unity-iPhone" */ = {
+		752CA8232149E6C100295EFC /* Build configuration list for PBXProject "Debug" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				752CA8402149E6C400295EFC /* Debug */,
@@ -377,11 +413,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		752CA8422149E6C400295EFC /* Build configuration list for PBXNativeTarget "endlessQueriUnity-master" */ = {
+		C40D2E27286328BB004CDB5F /* Build configuration list for PBXNativeTarget "Query" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				752CA8432149E6C400295EFC /* Debug */,
-				752CA8442149E6C400295EFC /* Release */,
+				C40D2E28286328BB004CDB5F /* Debug */,
+				C40D2E29286328BB004CDB5F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
